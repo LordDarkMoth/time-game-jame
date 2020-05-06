@@ -1,0 +1,3396 @@
+fileFormatVersion: 2
+guid: 7bc5d9a4a64b7cb4f97590d52a518aee
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: placeholder-poses_0
+    21300002: placeholder-poses_1
+    21300004: placeholder-poses_2
+    21300006: placeholder-poses_3
+    21300008: placeholder-poses_4
+    21300010: placeholder-poses_5
+    21300012: placeholder-poses_6
+    21300014: placeholder-poses_7
+    21300016: placeholder-poses_8
+    21300018: placeholder-poses_9
+    21300020: placeholder-poses_10
+    21300022: placeholder-poses_11
+    21300024: placeholder-poses_12
+    21300026: placeholder-poses_13
+    21300028: placeholder-poses_14
+    21300030: placeholder-poses_15
+    21300032: placeholder-poses_16
+    21300034: placeholder-poses_17
+    21300036: placeholder-poses_18
+    21300038: placeholder-poses_19
+    21300040: placeholder-poses_20
+    21300042: placeholder-poses_21
+    21300044: placeholder-poses_22
+    21300046: placeholder-poses_23
+    21300048: placeholder-poses_24
+    21300050: placeholder-poses_25
+    21300052: placeholder-poses_26
+    21300054: placeholder-poses_27
+    21300056: placeholder-poses_28
+    21300058: placeholder-poses_29
+    21300060: placeholder-poses_30
+    21300062: placeholder-poses_31
+    21300064: placeholder-poses_32
+    21300066: placeholder-poses_33
+    21300068: placeholder-poses_34
+    21300070: placeholder-poses_35
+    21300072: placeholder-poses_36
+    21300074: placeholder-poses_37
+    21300076: placeholder-poses_38
+    21300078: placeholder-poses_39
+    21300080: placeholder-poses_40
+    21300082: placeholder-poses_41
+    21300084: placeholder-poses_42
+    21300086: placeholder-poses_43
+    21300088: placeholder-poses_44
+    21300090: placeholder-poses_45
+    21300092: placeholder-poses_46
+    21300094: placeholder-poses_47
+    21300096: placeholder-poses_48
+    21300098: placeholder-poses_49
+    21300100: placeholder-poses_50
+    21300102: placeholder-poses_51
+    21300104: placeholder-poses_52
+    21300106: placeholder-poses_53
+    21300108: placeholder-poses_54
+    21300110: placeholder-poses_55
+    21300112: placeholder-poses_56
+    21300114: placeholder-poses_57
+    21300116: placeholder-poses_58
+    21300118: placeholder-poses_59
+    21300120: placeholder-poses_60
+    21300122: placeholder-poses_61
+    21300124: placeholder-poses_62
+    21300126: placeholder-poses_63
+    21300128: placeholder-poses_64
+    21300130: placeholder-poses_65
+    21300132: placeholder-poses_66
+    21300134: placeholder-poses_67
+    21300136: placeholder-poses_68
+    21300138: placeholder-poses_69
+    21300140: placeholder-poses_70
+    21300142: placeholder-poses_71
+    21300144: placeholder-poses_72
+    21300146: placeholder-poses_73
+    21300148: placeholder-poses_74
+    21300150: placeholder-poses_75
+    21300152: placeholder-poses_76
+    21300154: placeholder-poses_77
+    21300156: placeholder-poses_78
+    21300158: placeholder-poses_79
+    21300160: placeholder-poses_80
+    21300162: placeholder-poses_81
+    21300164: placeholder-poses_82
+    21300166: placeholder-poses_83
+    21300168: placeholder-poses_88
+    21300170: placeholder-poses_91
+    21300172: placeholder-poses_93
+    21300174: placeholder-poses_97
+    21300176: placeholder-poses_108
+    21300178: placeholder-poses_110
+    21300180: placeholder-poses_113
+    21300182: placeholder-poses_115
+    21300184: placeholder-poses_116
+    21300186: placeholder-poses_117
+    21300188: placeholder-poses_118
+    21300190: placeholder-poses_119
+    21300192: placeholder-poses_120
+    21300194: placeholder-poses_121
+    21300196: placeholder-poses_122
+    21300198: placeholder-poses_123
+    21300200: placeholder-poses_124
+    21300202: placeholder-poses_125
+    21300204: placeholder-poses_126
+    21300206: placeholder-poses_127
+    21300208: placeholder-poses_128
+    21300210: placeholder-poses_129
+    21300212: placeholder-poses_130
+    21300214: placeholder-poses_131
+    21300216: placeholder-poses_132
+    21300218: placeholder-poses_133
+    21300220: placeholder-poses_134
+    21300222: placeholder-poses_135
+    21300224: placeholder-poses_136
+    21300226: placeholder-poses_137
+    21300228: placeholder-poses_138
+    21300230: placeholder-poses_139
+    21300232: placeholder-poses_140
+    21300234: placeholder-poses_141
+    21300236: placeholder-poses_142
+    21300238: placeholder-poses_143
+    21300240: placeholder-poses_144
+    21300242: placeholder-poses_145
+    21300244: placeholder-poses_146
+    21300246: placeholder-poses_147
+    21300248: placeholder-poses_148
+    21300250: placeholder-poses_149
+    21300252: placeholder-poses_150
+    21300254: placeholder-poses_151
+    21300256: placeholder-poses_152
+    21300258: placeholder-poses_153
+    21300260: placeholder-poses_154
+    21300262: placeholder-poses_155
+    21300264: placeholder-poses_156
+    21300266: placeholder-poses_157
+    21300268: placeholder-poses_158
+    21300270: placeholder-poses_159
+    21300272: placeholder-poses_160
+    21300274: placeholder-poses_161
+    21300276: placeholder-poses_162
+    21300278: placeholder-poses_163
+    21300280: placeholder-poses_164
+    21300282: placeholder-poses_165
+    21300284: placeholder-poses_166
+    21300286: placeholder-poses_167
+    21300288: placeholder-poses_168
+    21300290: placeholder-poses_169
+    21300292: placeholder-poses_170
+    21300294: placeholder-poses_171
+    21300296: placeholder-poses_172
+    21300298: placeholder-poses_173
+    21300300: placeholder-poses_174
+    21300302: placeholder-poses_175
+    21300304: placeholder-poses_176
+    21300306: placeholder-poses_177
+    21300308: placeholder-poses_178
+    21300310: placeholder-poses_179
+    21300312: placeholder-poses_180
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: placeholder-poses_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bfcf731011a1741bc03c36209bcfa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d074498feae8cc47b152b354c85c8e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0275182ae5be4f913e039a3079562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35637ee90264bee43a7726ab5a4d6448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad73dd2c9d0b09243b80272eb90fdc1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669ad01d8293dc942bcd806b8e85669a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dddc486a5fe03d46b93e73895e7e81d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a91bc159646b164d93a8b56a75f3557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb8a600c7056b64094c17000582e94e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ac75ce22b67db4db9da2d2cc9d125a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9663e17834d40994491f2ee9591c1309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_11
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d58e99584260af4ea0d2c65697cfe7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d006a878dd7c2b74d963aa8c938cc94f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc8c5ff6c8b3841a76a976cfd84dee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb2b761062f11549b75b7436e85644b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30907efe81a1274694d7d86644a81c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ebafc94a5928499beaa5a6fe545af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_17
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cce2101c99f7041814d05c6c95fa8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_18
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914ee5b8da30339489ca8fb46d58b909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_19
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4795f398d0a8b3142918abf16c90a6f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a264872c6ac1cb4789a90030079cfb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_21
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8307f99d0039d4598d7b8c485eee8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c7ab54ab7a93d49acd972329839baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_23
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d37f32d59e8fc341a3dc6dac0e73da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ccd013955e6304db033743478ce164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7673c99749087244bc60eb31d413d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2234c5ed8f1d71f4ba1ab42d4d809c7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e367484a9324bff4e8b99ee11bd8fb1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_28
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350687451c455343a331219c4c1aef9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86b804fa4ebfb84ea3e9aabaa64bcba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a20c3f05b67194f884978df511ace3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_31
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002352f870358164ebc7394b92a475dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_32
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b779bf3c700110428f31a8021ea35fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_33
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa1dbbcab08cf4d8461a5a425db811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_34
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45248e97a683c154990198d328e4accc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_35
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2896
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34b08dfbca02243923dacea3c1d658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac7959155a491a418bc67abb26d5d0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400841845094c444a529f652352b103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35d9ab7711ecf419b766d4e0914a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_39
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79019e9e5ae33542b8dcf6a48f22bdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e4144515a36d7409465c5a57f24ca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_41
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd14060842e488044833840f3086d6fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_42
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e461ebc3ef8e84583d6d73040e11a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_43
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92516f165117e4bad1fca211b02e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_44
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925cdc4883c7db439495beeba22308a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_45
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ba9b45047a1f34a81ff2b1a8f0e47a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_46
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb7c5eb525315740bcdd3d5f6dc356a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_47
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2496
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67882074cea9f0a459f418493f5a7cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24578cc211bbb794199a01c20d517010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5c1c4fc22605b469a38499e58ff7cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c91fe8a0cc7ce345b8fced8edda1cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_51
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4158087e62544b34991f98f46d59509e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e449ea0c2dd5c943ba672db6a4d73c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_53
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf99d35f0dea0a945a1a3d3bd4a4cddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_54
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc8078e85b60694da2584892adabaf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_55
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aee6b7f0a559c542abf852e4dcb1f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_56
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f4b2aca2e337f499806f87bab3718f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_57
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdaac358efdf7645b133a9954c26ccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_58
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31785a1903f1724b974c2d1fdc95ade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_59
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2096
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6958ca198b3f84bbf5ef8f0c4ccf3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe74363705125648a216f90fb08a4eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1b3fb55156d14e875db51b99e06d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea01bea13cd967c4cbf59cd684addffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ff2e80b1b788849994ac81f78703b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_64
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b4881f1eb7234cb52b3cffd43fb49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_65
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9311df9cc00a2d149aa1e7fcb82aef45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_66
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa8936d5ef4d7846be4bf8168f5c5ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_67
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5abb5bb65cee2348bc2eff1f6a8dca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_68
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d37148d6c77f434284ae58823682e57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_69
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559ffd8fc7c15547af4cfa45531b99e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_70
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83e3235b900c846909dae46d8dd768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_71
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1696
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631d153993c71e940b2422e18fef11ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75171ef3c7425c3459c74f1de217bac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_73
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee43f06b193178c41a70339408d5547a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc996d1a236db349bd04489b02e40c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_75
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb65a34882f529a40840bfcd6d20b836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_76
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1296
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a27fed37c79d64c96c353eb66e545f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_77
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1597
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5000014, y: 0.53075963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0bcb15d51fdb34aa8bd927be43956e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_78
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1598
+        width: 90
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7146b94fa4a466443a798be395b060b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_79
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 1597
+        width: 88
+        height: 85
+      alignment: 9
+      pivot: {x: 0.46717975, y: 0.49271312}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d874a499aa214649a09b653d4fcefd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_80
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1599
+        width: 81
+        height: 83
+      alignment: 9
+      pivot: {x: 0.4821717, y: 0.48718557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af477fd4eedc4da479b4cf526e1090ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_81
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 1599
+        width: 85
+        height: 81
+      alignment: 9
+      pivot: {x: 0.48301068, y: 0.5170446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eb0c4e706cc8847b11514b8e125dbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_82
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1597
+        width: 86
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c116535b044d9c40ba7376557ad211d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_83
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1594
+        width: 81
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5178313, y: 0.570947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3043a92a6975af408eeff30ffacb1f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_88
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 672
+        width: 707
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab2d1cae4754334990d43c2b66d3aa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_91
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 675
+        width: 715
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c763c72ccb46741ae6cd980d4d8d5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_93
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 755
+        width: 320
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f32f7bfbef2e9408cd411c7a38553e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_97
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 667
+        width: 710
+        height: 483
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7278908aa4f324f9046dc9e88555df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_108
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 140
+        width: 708
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77eefc2244c4d74db5a7017f29853cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_110
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 143
+        width: 710
+        height: 475
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d844ab6c995a5419ba74751e46a9e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_113
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 141
+        width: 716
+        height: 479
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eace50664be965740ab57edf1b40eba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_115
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 671
+        width: 702
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb64be128b3795439be391648b32904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_116
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 138
+        width: 710
+        height: 482
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b1e079e63901d46b06d13e5922f072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_117
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 3856
+        width: 109
+        height: 233
+      alignment: 9
+      pivot: {x: 0.51207936, y: 0.025476545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f679fb10734a041bb76546d8098338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_118
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 3857
+        width: 82
+        height: 120
+      alignment: 9
+      pivot: {x: 0.500003, y: 0.03931885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf8d130da350e4b974e1b1a6d12619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_119
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 3607
+        width: 103
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5000024, y: 0.037516672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0a2b2d9c0a7884d8d1f01f78a584d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_120
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 3602
+        width: 74
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5168589, y: 0.08788408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75c5c402e922da4eb7e1498245bcd1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_121
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3375
+        width: 105
+        height: 208
+      alignment: 9
+      pivot: {x: 0.4881185, y: 0.044187106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f7993775446904f9070ba9cb54fa3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_122
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 3365
+        width: 68
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5366893, y: 0.08084375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1bc1a482204ed48992b892a1ff2635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_123
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 3146
+        width: 98
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5127327, y: 0.02746582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda2a85e3192f0749bf76a9ee07170f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_124
+      rect:
+        serializedVersion: 2
+        x: 3854
+        y: 3142
+        width: 55
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.037013732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e9694d5037eda46942513c66616a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_125
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 2922
+        width: 95
+        height: 204
+      alignment: 9
+      pivot: {x: 0.51312965, y: 0.029134115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aa5741ae86bd341a35fb48ff6c4dce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_126
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 2669
+        width: 91
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04100708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9634ec61fca5f8f49a63fd96a809d336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_127
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 2670
+        width: 50
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09409682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b0b8827bb41e442a09fa5570fe6382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_128
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 2421
+        width: 90
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04100708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d486532bbe9645b3b65aa09cb0730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_129
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 2414
+        width: 53
+        height: 108
+      alignment: 9
+      pivot: {x: 0.53724754, y: 0.08871573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c35a64f4dbebb499435eb70f8d3dd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_130
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 2157
+        width: 94
+        height: 203
+      alignment: 9
+      pivot: {x: 0.48949677, y: 0.05751496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d94937841bab124db806a8213e400d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_131
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 2159
+        width: 50
+        height: 106
+      alignment: 9
+      pivot: {x: 0.51974124, y: 0.08095565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ac468d8dc355d47a09005a9ef93f2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_132
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1630
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca592f9392447344aa584f859f984e78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_133
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1439
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a44f2f22a88da4d990541d4585eff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_134
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1485
+        width: 120
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c28b0e0083bd4ba346d82c7a1976a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_135
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1334
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b14f278cdfc94448b33c8b146072a13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_136
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1387
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257753fb505a5c0438642867c2321c53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_137
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1322
+        width: 175
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffe5302b4229974aafbff5320cf6816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_138
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 1631
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbb72f20f780d4c86d384a3ef41370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_139
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1439
+        width: 137
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c77d80e4534ead4d89c9128a40e100c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_140
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1482
+        width: 113
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f6e5d5df09aa949a720799d01e3416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_141
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1387
+        width: 118
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394964634e266be4d9ce3b52ac34c4d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_142
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1322
+        width: 175
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a521b742caf983f4e8517234546e94b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_143
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1335
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66ebfd1845539640a005d54a7de2de8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_144
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1631
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8443803660a4394d99b2b74bf3834eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_145
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 1485
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3e93ce1825d074d97bb64992129dd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_146
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 1441
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3977305adfa76954ab6fd116880ff68f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_147
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 1390
+        width: 121
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c012f89a735ce754c9311ee42c0acc0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_148
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1322
+        width: 176
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737b06f94fb054941b73626439333988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_149
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 1339
+        width: 43
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f257d6286f5f7ae46a1091b79b888e40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_150
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1634
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abae34469dc0274e85765663da9764d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_151
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 1438
+        width: 133
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c99655f05073c44a694394f6f314c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_152
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1484
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ac04d6a51bd3e418920b899d684e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_153
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1387
+        width: 124
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6b2731901f7cf41b147bd5a8b32fc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_154
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1321
+        width: 167
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99af9baf5b11af44a984f5109522425d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_155
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1338
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1956e1e2f833d854c9e98c5af5e5fa1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_156
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 1633
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a01561fea6d4944a6e8dcdd947d84e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_157
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 1443
+        width: 129
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff366634033074468286e0ada2b8af7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_158
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1485
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc073bf2b528841a04a203314f6d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_159
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1338
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a6ff0c6e81ef04eb5cff82262fbf76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_160
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 1386
+        width: 115
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dc0102d3d5ad847b2ac99c79eab272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_161
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 1321
+        width: 179
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b98a7e480dae94eb1c798988aa37f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_162
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 1631
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db62c902044d3a14a80696ceab761005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_163
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1443
+        width: 135
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ecedafb0a5d44ea59f11010b59dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_164
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1487
+        width: 115
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b8889fd14901e4a907d1769a0ce0da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_165
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 1337
+        width: 47
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b191cbc8cd4a754c85613fbfde9e1ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_166
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1322
+        width: 177
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6503ead6f6dc2e54db5cef681f0f39e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_167
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1391
+        width: 115
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1e317b158fc3544a15e0ead5b67590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_168
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 1633
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d189e4832dcf73844b0ca6eb91de4fd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_169
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 1443
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b68e88d10f3f4eb2f8412da2ac308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_170
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 1488
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc39cddb4a1358b4e84d295b45f6c4a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_171
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 1390
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd13c772601f345a44a4006ae88c91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_172
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 1321
+        width: 176
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee73dbc5c5b154eaed9a7feff76397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_173
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 1347
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7923b8cd56fa641af4d64c3836d62d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_174
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 1598
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ce9d72af671c24399d914f6d880b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_175
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 1633
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf9ce6cf2d4ac4397a827813dbfcbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_176
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 1441
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384c9fadda65b14088b8a0e9ab288ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_177
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 1488
+        width: 119
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66621fa8fcee5942bbed9040b381015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_178
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 1337
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f805072eee9da4db369911f21f02d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_179
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1386
+        width: 117
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c143a036ad32d41912ef6e1b4fae7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder-poses_180
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 1321
+        width: 172
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bf733691426104dbd872c6baea7b97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5306b59359f8f35429dde5e977df19d8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
