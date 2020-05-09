@@ -19,9 +19,11 @@ public class EnemyBasic : MonoBehaviour
 
 
     //Enemy STATS
-
+    [SerializeField]
     float hp = 40f;
+    [SerializeField]
     float def = .2f;
+    [SerializeField]
     float attack;
 
 
@@ -80,8 +82,9 @@ public class EnemyBasic : MonoBehaviour
     }
 
     public void takeDamage(float rawDamage) {
-        hp -= rawDamage * def;
-        print("took " +(rawDamage - def) + "damage, now hp at " + hp);
+        float DamgeDealt = rawDamage - (rawDamage * def);
+        hp -= DamgeDealt;
+        print("took " + DamgeDealt + " damage, now hp at " + hp);
         if (hp <=0) {
             getKilled();
         }

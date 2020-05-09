@@ -17,6 +17,9 @@ public class playerController3d : MonoBehaviour
     public Camera playerCamera;
     //public Camera MapCamera;
     public Camera BattleCamera;
+    public Transform attackPoint;
+    public float attackRange = .5f;
+    public LayerMask enemyLayer;
 
     //private Vector3 cameraRestPosition;
 
@@ -24,9 +27,13 @@ public class playerController3d : MonoBehaviour
 
 
     //combat Tracking
-    public int comboPoints = 0;
-    public Text comboBox;
-    public bool atkInputRecieved = false;
+    [SerializeField]
+    private int[] basicAttacksDmg;
+    [SerializeField]
+    private int[][] basicAttacksOrgin;
+    [SerializeField]
+    private int[] basicAttacksRange;
+
     private int[] superMoveValues = new int[4];
     private int currentSuperSlot = 0;
     //public VillagerChar targetVillager;
@@ -44,6 +51,8 @@ public class playerController3d : MonoBehaviour
     
     public bool moveable = true;
     private Vector3 endpoint;
+
+    EnemyBasic curEnemy;
 
 
     private void Awake()
@@ -64,44 +73,16 @@ public class playerController3d : MonoBehaviour
 
 
     }
-   
-    // Update is called once per frame
-    void FixedUpdate()
+
+    private void Update()
     {
-        if (inCombat)
+        if (moveable)
         {
-            //t += Time.deltaTime / incrementMoveTime;
-            //transform.position = Vector3.Lerp(startPosition, target, t);
-
-
-        }
-        if (moveable) {
-            calcualteFacing();
-            moveHorizontal = Input.GetAxis("Horizontal");
-            moveVertical = Input.GetAxis("Vertical");
-
-            smoothMove();
-
-            //if (!inCombat)
-            //{
-            //    smoothMove();
-            //}
-            //else
-            //{
-            //    incrementalMove();
-
-            //}
-
-
-            //if (Input.GetKeyUp("space")) {
-            //inCombat = !inCombat;
-            //playerAnimator.SetBool("InCombat", inCombat);
-
-            //}
+            
             //Buttons
             if (Input.GetButtonUp("A"))
             {
-                print("hit A, combat: " + inCombat);
+                //print("hit A, combat: " + inCombat);
 
                 if (!inCombat)
                 {
@@ -123,96 +104,113 @@ public class playerController3d : MonoBehaviour
             }
             if (Input.GetButtonUp("B"))
             {
-                print("hit B");
+                
 
                 if (!inCombat)
                 {
+                    //print("hit B, combat: " + inCombat);
                     //passive 
                     //cancel
                 }
-                else
-                {
-                    //combat
-                    //Jump
-                }
+               
             }
             if (Input.GetButtonUp("X"))
             {
-                print("hit X");
+                //print("hit X, combat: " + inCombat);
 
                 if (!inCombat)
                 {
                     //passive
                     // Stats
-                    if (inMenu)
-                    {
-                        showPlayer();
-                        inMenu = false;
-                    }
-                    else
-                    {
-                        showMap();
-                        inMenu = true;
-                    }
+                    //if (inMenu)
+                    //{
+                    //showPlayer();
+                    //inMenu = false;
+                    //}
+                    //else
+                    //{
+                    //showMap();
+                    //inMenu = true;
+                    //}
 
                 }
                 else
                 {
                     //combat
                     //Heavy Atk
-                    if (!atkInputRecieved)
-                    {
-                        //atkInputRecieved = true;
-                        //if (playerStamina <=1) {
-                        //    playerAnimator.SetBool("OutOfStamNext", true);
-                        //    atkInputRecieved = false;
-                        //} else if (playerStamina > 1)
-                        //{
-                            playerAnimator.SetBool("CmbtHeavyNext", true);
-
-                            calculateheaveyHit();
-                        //    playerStamina -= 2;
-                        //}
-                        //else
-                        //{
-
-                        //}
-                    }
+            
+                        playerAnimator.SetTrigger("heavyAttack");
+                        playerAnimator.ResetTrigger("lightAttack");
+                       
+                        
 
                 }
             }
             if (Input.GetButtonUp("Y"))
             {
-                print("hit Y");
+                //print("hit Y, combat: " + inCombat);
 
                 if (!inCombat)
                 {
                     //passive 
                     //ForceWalk
+                    preapareForBattle();
                 }
                 else
                 {
                     //combat
                     //LightAtk
-                    if (!atkInputRecieved)
-                    {
-                        atkInputRecieved = true;
-                        //if (playerStamina <= 0) {
-                        //    playerAnimator.SetBool("OutOfStamNext", true);
-                        //    atkInputRecieved = false;
-                        //} else if (playerStamina > 0) {
-                            playerAnimator.SetBool("CmbtLightNext", true);
-
-                            calculateLightHit();
-                            //playerStamina -= 1;
-                        //}
+                  
+                        playerAnimator.SetTrigger("lightAttack");
+                        playerAnimator.ResetTrigger("heavyAttack");
+                       
+                        
 
 
-                    }
+                    
 
 
                 }
             }
+
+        }
+    }
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        
+        
+        if (moveable) {
+            calcualteFacing();
+            if (inCombat)
+            {
+                //t += Time.deltaTime / incrementMoveTime;
+                //transform.position = Vector3.Lerp(startPosition, target, t);
+                moveHorizontal = Input.GetAxis("Horizontal");
+                moveVertical = 0;
+
+            }
+            else {
+                moveHorizontal = Input.GetAxis("Horizontal");
+                moveVertical = Input.GetAxis("Vertical");
+            }
+            
+
+            smoothMove();
+
+           
+            if (Input.GetButtonUp("B"))
+            {
+                
+
+                if (inCombat)
+                {
+                    //jump 
+                    //print("hit B, combat: " + inCombat);
+                }
+               
+            }
+            
 
         }
        
@@ -310,9 +308,10 @@ public class playerController3d : MonoBehaviour
     
     }
     public void preapareForBattle() {
-        startPosition = target = transform.position;
+        //startPosition = target = transform.position;
         inCombat = true;
         playerAnimator.SetBool("InCombat", inCombat);
+        playerAnimator.SetTrigger("enterCombat");
         showBattleCamera();
         //unhookCamera();
     }
@@ -350,43 +349,33 @@ public class playerController3d : MonoBehaviour
     public void resetCameraToExplore() {
         //playerCamera.transform.position = cameraRestPosition;
     }
-    void calculateLightHit() {
 
-        comboPoints = Mathf.Clamp(comboPoints + 1, 0, 8);
-        //comboBox.text = comboPoints.ToString();
-        playerAnimator.SetInteger("ComboPoints", comboPoints);
+   
 
-    }
-    void calculateheaveyHit()
-    {
-        comboPoints = Mathf.Clamp(comboPoints + 2,0,8);
-        //comboBox.text = comboPoints.ToString();
-        playerAnimator.SetInteger("ComboPoints", comboPoints);
-    }
+    public void ApplyDamage(int atkType) {
+        //apply damage to enemies in the list
+        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position,attackRange);
 
-    void calculateFinisherDamage() {
+        foreach (Collider enemy in hitEnemies) {
+            curEnemy = enemy.GetComponent<EnemyBasic>();
 
-    }
+            if(curEnemy != null)
+            curEnemy.takeDamage(basicAttacksDmg[atkType-1]);
 
+            curEnemy = null;
 
-    public void AddComboToSuper() {
-        if (currentSuperSlot < 4) {
-            superMoveValues[currentSuperSlot] = comboPoints;
-            //populate correct trackerBox
-            currentSuperSlot += 1;
         }
+    }
+
+
+    void calculateDamage() {
 
 
     }
+ 
 
-    public void useSuperMove() {
-        //transverse numbers- 1:MeleeStill, 2:Throw, 3:MeleeDash, 4: RangeRapid, 5:MeleeSplash, 6:RangedBurst, 7:Melee Launch, 8:Summon 
 
-        playerAnimator.SetInteger("SuperAnimationTransverse", comboPoints);
-        playerAnimator.SetInteger("SuperAnimationRelease", comboPoints);
-        playerAnimator.SetBool("CombatSuperNext", true);
-
-    }
+  
 
 
 
@@ -409,5 +398,12 @@ public class playerController3d : MonoBehaviour
         playerCamera.enabled = false;
         //MapCamera.enabled = false;
         BattleCamera.enabled = true;
+    }
+
+    void OnDrawGizmosSelected() {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
