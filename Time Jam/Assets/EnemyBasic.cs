@@ -36,7 +36,6 @@ public class EnemyBasic : MonoBehaviour
     bool leaping;
     Vector3 startPosition;
     Vector3 destination;
-    [SerializeField]
     float destinationReachedThreshold;
     float destinationProximity;
     private float journeyStartTime;
@@ -52,17 +51,27 @@ public class EnemyBasic : MonoBehaviour
     void Start()
     {
         moveSpeed = speed;
+		destinationReachedThreshold = (float)0.05f;
         journeyLength = Vector3.Distance(startPosition, destination);
         senseArea = this.GetComponent<BoxCollider>();
         myBody = this.GetComponent<Rigidbody>();
         targetSightedCountdown = senseLimit;
         myAnimator = this.GetComponent<Animator>();
         destination = this.transform.position;
+        _battleManager = FindObjectOfType<BattleManager>();
+
     }
 
     private void Update()
     {
-        if (travelling) {
+       
+        
+    }
+    private void FixedUpdate()
+    {
+
+        if (travelling)
+        {
             distCovered = (Time.time - journeyStartTime) * moveSpeed;
             fractionOfJourney = distCovered / journeyLength;
             transform.position = Vector3.Lerp(startPosition, destination, fractionOfJourney);
@@ -75,12 +84,6 @@ public class EnemyBasic : MonoBehaviour
 
             }
         }
-        
-    }
-    private void FixedUpdate()
-    {
-        
-
 
         if (!inBattle) {
             if (playerInRange)
@@ -96,7 +99,8 @@ public class EnemyBasic : MonoBehaviour
                 else
                 {
                     
-                    inBattle = true;
+
+                    myAnimator.SetTrigger("Detect");
                     _battleManager.SetUpBattle(this.gameObject);
                 }
 
@@ -116,7 +120,7 @@ public class EnemyBasic : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("Feild entered");
+        //Debug.Log("Feild entered");
         if (collision.gameObject.tag == "Player")
         {
             //print("Player Hit");
@@ -127,7 +131,7 @@ public class EnemyBasic : MonoBehaviour
     }
     private void OnTriggerExit(Collider collision)
     {
-        Debug.Log("Feild exit");
+        //Debug.Log("Feild exit");
         if (collision.gameObject.tag == "Player")
         {
             //print("Player Left");
@@ -139,38 +143,47 @@ public class EnemyBasic : MonoBehaviour
     public void alterFacing(Vector3 LookToPoint) {
         if (this.transform.position.x > LookToPoint.x)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);
         }
         else
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
     public void moveToLocation(Vector3 where, float speedAug = 1){
         //check to look the right way
         alterFacing(where);
+        moveSpeed = speedAug * moveSpeed;
+
+        startPosition = transform.position;
+        destination = where;
+        journeyLength = Vector3.Distance(startPosition, destination);
         // trigger correct animation
         if (leaping)
         {
+            Debug.Log("Leaping");
             myAnimator.SetTrigger("Leap");
         }
         else if(inBattle){
             myAnimator.SetTrigger("BattleRun");
+            beginMoving();
         }
         else
         {
             myAnimator.SetTrigger("Walk");
+            beginMoving();
+
         }
         // lerp to destination
-        journeyStartTime = Time.time;
-        startPosition = transform.position;
-        destination = where;
-        moveSpeed = speedAug * moveSpeed;
-        travelling = true;
+
+
 
     }
-
+    public void beginMoving() {
+        journeyStartTime = Time.time;
+        travelling = true;
+    }
     public void reachDestination() {
         moveSpeed = speed;
         travelling = false;
@@ -187,16 +200,31 @@ public class EnemyBasic : MonoBehaviour
         else if (inBattle)
         {
             myAnimator.SetTrigger("BattleIdle");
+            myAnimator.ResetTrigger("Detect");
         }
         else {
             myAnimator.SetTrigger("Rest");
         }
     }
+
+    public void detectAnimation() {
+        if (thePlayer == null) { 
+            thePlayer = GameObject.FindWithTag("Player");
+        }
+        alterFacing(thePlayer.transform.position);
+        myAnimator.SetTrigger("Detect");
+    }
     public void PrepareForBattle(Vector3 battleStartPosition) {
+		Debug.Log("Preparing for battle.");
         senseArea.enabled = false;
         leaping = true;
-        moveToLocation(battleStartPosition,3);
+        battleStartUp = true;
+        moveToLocation(battleStartPosition,5f);
 
+    }
+    public void startBattleAI() {
+        Debug.Log("starting battle AI");
+        myAnimator.SetTrigger("BattleIdle");
     }
     public void takeDamage(float rawDamage) {
         float DamgeDealt = rawDamage - (rawDamage * def);

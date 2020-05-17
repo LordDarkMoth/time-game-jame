@@ -29,7 +29,8 @@ public class BattleManager : MonoBehaviour
         
         BattleArea.size = neutralSize;
         this.transform.position = neutralCords;
-        
+        BattleArea.enabled = false;
+
     }
 
     // Update is called once per frame
@@ -51,20 +52,23 @@ public class BattleManager : MonoBehaviour
             print("enemy found");
             if (!collision.gameObject.GetComponent<EnemyBasic>().inBattle) {
                 enemiesInBattle.Add(collision.gameObject);
+               
                 collision.gameObject.GetComponent<EnemyBasic>().inBattle = true;
             }
 
         }
+
     }
 
     public void SetUpBattle(GameObject initEnemy) {
-
-        Debug.Log("moving battle area Size: " + BattleArea.size + " | center: " + BattleArea.center);
+        BattleArea.enabled = true;
+        //Debug.Log("moving battle area Size: " + BattleArea.size + " | center: " + BattleArea.center);
         BattleArea.size = new Vector3(20f, 2f, 30f);
         this.transform.position = initEnemy.transform.position;
-        Debug.Log("battle area fixed Size: " + BattleArea.size + " | center: " + BattleArea.center);
+        //Debug.Log("battle area fixed Size: " + BattleArea.size + " | center: " + BattleArea.center);
 
         _player.preapareForBattle();
+
 
         StartCoroutine(PositionCombatants());
 
@@ -75,7 +79,11 @@ public class BattleManager : MonoBehaviour
     private IEnumerator PositionCombatants() {
 
         yield return new WaitForSeconds(.5f);
-
+        for (int i = 0; i < enemiesInBattle.Count; i++)
+        {
+            enemiesInBattle[i].GetComponent<EnemyBasic>().detectAnimation();
+        }
+        BattleArea.enabled = false;
         Vector3 BattleCenter = this.transform.position;
         float xPosModifer;
         if (BattleCenter.x > playerBody.transform.position.x) { //enemies to left
@@ -85,53 +93,57 @@ public class BattleManager : MonoBehaviour
         
         }
         Vector3 CombatantPos = new Vector3(BattleCenter.x + (6f * xPosModifer), 0, BattleCenter.z);
-        playerBody.transform.position = CombatantPos;
+        //playerBody.transform.position = CombatantPos;
         for (int i=0; i < enemiesInBattle.Count; i++) {
             float xAdjust = 0f;
             float zAdjust = 0f;
 
             switch (i) {
-                case 1:
+                case 0:
                     xAdjust = 2f;
+
+                    break;
+                case 1:
+                    xAdjust = 4f;
                     
                     break;
                 case 2:
-                    xAdjust = 4f;
-                    
-
-                    break;
-                case 3:
                     xAdjust = 6f;
                     
 
                     break;
-                case 4:
+                case 3:
                     xAdjust = 8f;
                     
 
                     break;
-                case 5:
+                case 4:
                     xAdjust = 10f;
+                    
+
+                    break;
+                case 5:
+                    xAdjust = 12f;
                    
 
                     break;
                 case 6:
-                    xAdjust = 12f;
-                    
-
-                    break;
-                case 7:
                     xAdjust = 14f;
                     
 
                     break;
-                case 8:
+                case 7:
                     xAdjust = 16f;
                     
 
                     break;
-                case 9:
+                case 8:
                     xAdjust = 18f;
+                    
+
+                    break;
+                case 9:
+                    xAdjust = 20f;
                     
 
                     break;
@@ -147,10 +159,16 @@ public class BattleManager : MonoBehaviour
     }
     public void StartBattle()
     {
+        Debug.Log("Start battle called. Enemies Ready: " + enemiesReady + "/" + enemiesInBattle.Count);
         if (enemiesReady >= enemiesInBattle.Count) {
             print("Battle Started!! with " + enemiesInBattle.Count + " enemies");
-
+            _player.moveable = true;
             //loop through enemies and make them start making fight decisions
+            for (int i = 0; i < enemiesInBattle.Count; i++) {
+
+                enemiesInBattle[i].GetComponent<EnemyBasic>().startBattleAI();
+            }
+
             battleCommenced = true;
         }
         

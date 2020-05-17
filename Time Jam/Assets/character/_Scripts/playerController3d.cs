@@ -41,14 +41,14 @@ public class playerController3d : MonoBehaviour
     public int speed;
     public float leapDistance;
     public float LeapAniTime;
-    public int playerMaxStamina = 4;
+    public int playerMaxStamina = 6;
     public int playerStamina;
 
     private float t;
     Vector3 startPosition;
     Vector3 target;
     float incrementMoveTime;
-    
+
     public bool moveable = true;
     private Vector3 endpoint;
 
@@ -134,16 +134,20 @@ public class playerController3d : MonoBehaviour
                     //}
 
                 }
-                else
+                else if (playerStamina > 1)
                 {
                     //combat
                     //Heavy Atk
-            
+                    moveable = false;
                         playerAnimator.SetTrigger("heavyAttack");
                         playerAnimator.ResetTrigger("lightAttack");
-                       
-                        
+                    playerStamina -= 2;
 
+
+
+                }else {
+                    moveable = false;
+                    playerAnimator.SetTrigger("OOS");
                 }
             }
             if (Input.GetButtonUp("Y"))
@@ -156,20 +160,18 @@ public class playerController3d : MonoBehaviour
                     //ForceWalk
                     preapareForBattle();
                 }
-                else
+                else if (playerStamina > 0)
                 {
                     //combat
                     //LightAtk
-                  
-                        playerAnimator.SetTrigger("lightAttack");
+                    moveable = false;
+                    playerAnimator.SetTrigger("lightAttack");
                         playerAnimator.ResetTrigger("heavyAttack");
-                       
-                        
+                    playerStamina--;
 
-
-                    
-
-
+                } else {
+                    moveable = false;
+                    playerAnimator.SetTrigger("OOS");
                 }
             }
 
@@ -253,6 +255,8 @@ public class playerController3d : MonoBehaviour
             }
         }
     }
+   
+
     void incrementalMove() {
         float xMove = this.transform.position.x;
         float zMove = this.transform.position.z;
@@ -312,7 +316,8 @@ public class playerController3d : MonoBehaviour
         inCombat = true;
         playerAnimator.SetBool("InCombat", inCombat);
         playerAnimator.SetTrigger("enterCombat");
-        showBattleCamera();
+        moveable = false;
+        //showBattleCamera();
         //unhookCamera();
     }
     public void leaveBattle() {
@@ -367,15 +372,14 @@ public class playerController3d : MonoBehaviour
         }
     }
 
-
-    void calculateDamage() {
-
-
+    public void resetStamina() {
+        playerStamina = playerMaxStamina;
+    
     }
- 
 
 
-  
+
+
 
 
 

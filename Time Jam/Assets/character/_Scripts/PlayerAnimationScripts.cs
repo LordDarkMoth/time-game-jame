@@ -61,7 +61,24 @@ public class PlayerAnimationScripts : MonoBehaviour
     }
     public void StaminaReset() {
         playerScript.playerStamina = playerScript.playerMaxStamina;
+        allowMovement();
         //comboUI.fillStaminaToMax();
         //comboUI.ClearCurrentMedallion();
+    }
+
+    public void preventMovement()
+    {
+        playerScript.moveable = false;
+    }
+    public void allowMovement()
+    {
+        playerScript.moveable = true;
+    }
+
+    public void checkForNatStaminaRunnout() {
+        if (playerScript.playerStamina <= 0) {
+            preventMovement();
+            playerAnimator.SetTrigger("OOS");
+        }
     }
 }
