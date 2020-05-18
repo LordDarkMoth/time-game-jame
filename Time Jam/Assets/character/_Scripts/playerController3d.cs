@@ -36,6 +36,11 @@ public class playerController3d : MonoBehaviour
 
     private int[] superMoveValues = new int[4];
     private int currentSuperSlot = 0;
+
+    [SerializeField]
+    HealthBar playerHealthBar;
+
+
     //public VillagerChar targetVillager;
 
     public int speed;
@@ -43,6 +48,9 @@ public class playerController3d : MonoBehaviour
     public float LeapAniTime;
     public int playerMaxStamina = 6;
     public int playerStamina;
+    [SerializeField]
+    int maxHealth = 100;
+    int currentHealth = 100;
 
     private float t;
     Vector3 startPosition;
@@ -68,6 +76,9 @@ public class playerController3d : MonoBehaviour
         charRenderer = visuals.GetComponent<SpriteRenderer>();
         startPosition = target = transform.position;
         showPlayer();
+
+        playerHealthBar.setUpBar(maxHealth);
+       
 
         //cameraRestPosition = playerCamera.transform.position;
 
