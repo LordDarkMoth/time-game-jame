@@ -11,30 +11,32 @@ public class HealthBar : MonoBehaviour
     [SerializeField]
     Image barVisual;
     [SerializeField]
-    Color32 redColor;
-    [SerializeField]
-    Color32 yellowColor;
-    [SerializeField]
-    Color32 greenColor;
+    Gradient gradient;
 
     Slider slider;
+
+    private void Awake()
+    {
+        slider = GetComponent<Slider>();
+    }
+
+
     public void setHealth(int currentHealth) {
         slider.value = currentHealth;
-
-        if (currentHealth < redBreakpoint) {
-            barVisual.color = redColor;
-        } else if (currentHealth < redBreakpoint) {
-            barVisual.color = yellowColor;
-        } else { 
-        
-        }
-
+        barVisual.color = gradient.Evaluate(slider.normalizedValue);
     }
 
     public void setUpBar(int maxHealth = 100) {
         slider.maxValue = maxHealth;
         slider.value = maxHealth;
-        yellowBreakpoint = (maxHealth / 10) * 6;
-        redBreakpoint = maxHealth / 4;
+        barVisual.color = gradient.Evaluate(1f);
+       
+    }
+    public void hideMe() {
+        gameObject.SetActive(false);
+    }
+    public void showMe()
+    {
+        gameObject.SetActive(true);
     }
 }

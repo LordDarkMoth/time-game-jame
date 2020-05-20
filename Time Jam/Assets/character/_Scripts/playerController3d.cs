@@ -40,14 +40,22 @@ public class playerController3d : MonoBehaviour
     [SerializeField]
     HealthBar playerHealthBar;
 
+    [SerializeField]
+    ChronoGuage chronoGauge;
+    [SerializeField]
+    staminaUI staminaGauge;
+
 
     //public VillagerChar targetVillager;
 
     public int speed;
     public float leapDistance;
     public float LeapAniTime;
-    public int playerMaxStamina = 6;
-    public int playerStamina;
+    [SerializeField]
+    float staminaRechargeRate = 0.01f;
+    [SerializeField]
+    public float playerMaxStamina = 6f;
+    public float playerStamina;
     [SerializeField]
     int maxHealth = 100;
     int currentHealth = 100;
@@ -77,7 +85,12 @@ public class playerController3d : MonoBehaviour
         startPosition = target = transform.position;
         showPlayer();
 
+        chronoGauge.setUpGuage(50);
         playerHealthBar.setUpBar(maxHealth);
+        staminaGauge.SetUpBar(playerMaxStamina);
+        hideBattleUI();
+
+
        
 
         //cameraRestPosition = playerCamera.transform.position;
@@ -87,6 +100,7 @@ public class playerController3d : MonoBehaviour
 
     private void Update()
     {
+       
         if (moveable)
         {
             
@@ -152,7 +166,7 @@ public class playerController3d : MonoBehaviour
                     moveable = false;
                         playerAnimator.SetTrigger("heavyAttack");
                         playerAnimator.ResetTrigger("lightAttack");
-                    playerStamina -= 2;
+                    playerStamina -= 2f;
 
 
 
@@ -226,7 +240,10 @@ public class playerController3d : MonoBehaviour
             
 
         }
-       
+        if (inCombat) {
+            rechargeStamina();
+        }
+
 
     }
     void calcualteFacing() {
@@ -328,6 +345,8 @@ public class playerController3d : MonoBehaviour
         playerAnimator.SetBool("InCombat", inCombat);
         playerAnimator.SetTrigger("enterCombat");
         moveable = false;
+        showBattleUI();
+        playerHealthBar.setUpBar(maxHealth);
         //showBattleCamera();
         //unhookCamera();
     }
@@ -385,14 +404,29 @@ public class playerController3d : MonoBehaviour
 
     public void resetStamina() {
         playerStamina = playerMaxStamina;
-    
+        staminaGauge.updateBar(playerStamina);
+    }
+    public void rechargeStamina() {
+        playerStamina = Mathf.Clamp(playerStamina + staminaRechargeRate, 0, playerMaxStamina);
+        staminaGauge.updateBar(playerStamina);
+
     }
 
 
 
 
 
+    public void showBattleUI() {
+        playerHealthBar.showMe();
+        chronoGauge.showMe();
+    }
 
+    public void hideBattleUI()
+    {
+        playerHealthBar.hideMe();
+        chronoGauge.hideMe();
+
+    }
 
     public void showPlayer()
     {

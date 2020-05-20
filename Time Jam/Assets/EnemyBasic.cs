@@ -12,12 +12,14 @@ public class EnemyBasic : MonoBehaviour
     private Animator myAnimator;
     public BattleManager _battleManager;
 
-    public int senseLimit = 120;
+    public int senseLimit = 40;
     private int targetSightedCountdown;
     private bool battleStartUp = false;
     public bool inBattle = false;
     private GameObject thePlayer;
 
+    [SerializeField]
+    HealthBar myHealthBar;
 
 
     //Enemy STATS
@@ -32,6 +34,7 @@ public class EnemyBasic : MonoBehaviour
 
 
     //Enemy AI
+    bool newChoiceReady;
     bool travelling;
     bool leaping;
     Vector3 startPosition;
@@ -59,6 +62,8 @@ public class EnemyBasic : MonoBehaviour
         myAnimator = this.GetComponent<Animator>();
         destination = this.transform.position;
         _battleManager = FindObjectOfType<BattleManager>();
+        myHealthBar.setUpBar((int)hp);
+        myHealthBar.hideMe();
 
     }
 
@@ -117,6 +122,7 @@ public class EnemyBasic : MonoBehaviour
     }
 
 
+
     // Update is called once per frame
     private void OnTriggerEnter(Collider collision)
     {
@@ -150,6 +156,13 @@ public class EnemyBasic : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
     }
+
+
+
+
+
+
+
 
     public void moveToLocation(Vector3 where, float speedAug = 1){
         //check to look the right way
@@ -219,6 +232,7 @@ public class EnemyBasic : MonoBehaviour
         senseArea.enabled = false;
         leaping = true;
         battleStartUp = true;
+        myHealthBar.showMe();
         moveToLocation(battleStartPosition,5f);
 
     }
@@ -229,6 +243,7 @@ public class EnemyBasic : MonoBehaviour
     public void takeDamage(float rawDamage) {
         float DamgeDealt = rawDamage - (rawDamage * def);
         hp -= DamgeDealt;
+        myHealthBar.setHealth((int)hp);
         myAnimator.SetTrigger("TakeDamage");
 
         if (hp <=0) {
