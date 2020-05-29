@@ -49,6 +49,7 @@ public class playerController3d : MonoBehaviour
     //public VillagerChar targetVillager;
 
     public int speed;
+    public float jumpHeight = 1f;
     public float leapDistance;
     public float LeapAniTime;
     [SerializeField]
@@ -64,6 +65,7 @@ public class playerController3d : MonoBehaviour
     Vector3 startPosition;
     Vector3 target;
     float incrementMoveTime;
+    Vector3 theScale;
 
     public bool moveable = true;
     private Vector3 endpoint;
@@ -83,6 +85,7 @@ public class playerController3d : MonoBehaviour
         playerAnimator = visuals.GetComponent<Animator>();
         charRenderer = visuals.GetComponent<SpriteRenderer>();
         startPosition = target = transform.position;
+        theScale = this.transform.localScale;
         showPlayer();
 
         chronoGauge.setUpGuage(50);
@@ -224,12 +227,13 @@ public class playerController3d : MonoBehaviour
             
 
             smoothMove();
+            playerAnimator.SetFloat("Lift", body.velocity.y);
 
-           
+
             if (Input.GetButtonUp("B"))
             {
-                
-
+                Debug.Log("jumping");
+                body.AddForce(0, jumpHeight, 0,ForceMode.Impulse);
                 if (inCombat)
                 {
                     //jump 
@@ -254,16 +258,16 @@ public class playerController3d : MonoBehaviour
             if (body.velocity.x < 0)
             {
                 _facingLeft = true;
-                //theScale.x = 1;
-                //transform.localScale = theScale;
-                charRenderer.flipX = true;
+                theScale.x = -1;
+                transform.localScale = theScale;
+                //charRenderer.flipX = true;
             }
             else if (body.velocity.x > 0 || !_facingLeft)
             {
                 _facingLeft = false;
-                //theScale.x = -1;
-                //transform.localScale = theScale;
-                charRenderer.flipX = false;
+                theScale.x = 1;
+                transform.localScale = theScale;
+                //charRenderer.flipX = false;
             }
             //playerAnimator.SetBool("FacingLeft", _facingLeft);
         }
@@ -285,60 +289,7 @@ public class playerController3d : MonoBehaviour
     }
    
 
-    void incrementalMove() {
-        float xMove = this.transform.position.x;
-        float zMove = this.transform.position.z;
-        
-        if (moveHorizontal > 0.05f)
-        {
-            //move right
-            xMove += leapDistance;
-            //cameraOffsetX = -1 * leapDistance;
-            _facingLeft = false;
-            //theScale.x = -1;
-            //transform.localScale = theScale;
-            charRenderer.flipX = false;
-        }
-        else if (moveHorizontal < -0.05f)
-        {
-            //move left
-            xMove -= leapDistance;
-            _facingLeft = true;
-            //theScale.x = 1;
-            //transform.localScale = theScale;
-            charRenderer.flipX = true;
-            //cameraOffsetX = leapDistance;
-        }
-        if (moveVertical > 0.05f)
-        {
-            //move up
-            zMove += leapDistance;
-            //cameraOffsetZ = -1 * leapDistance;
-        }
-        else if (moveVertical < -0.05f)
-        {
-            //move down
-            zMove -= leapDistance;
-            //cameraOffsetZ = leapDistance;
-        }
-
-        if (xMove != this.transform.position.x || zMove != this.transform.position.z)
-        {
-            print("StartX: " + this.transform.position.x);
-            print("X Move: " + xMove);
-            endpoint = new Vector3(xMove, 0,zMove);
-            print(endpoint);
-            //playerCamera.transform.position = Vector3.Lerp(playerCamera.transform.position, new Vector3(playerCamera.transform.position.x + cameraOffsetX, 0, playerCamera.transform.position.z + cameraOffsetZ), Time.time);
-            
-            SetIncrementDestination(endpoint,LeapAniTime);
-            playerAnimator.SetBool("ScootNext", true);
-            moveable = false;
-        }
-        else {
-            playerAnimator.SetBool("ScootNext", false);
-        }
     
-    }
     public void preapareForBattle() {
         //startPosition = target = transform.position;
         inCombat = true;
@@ -367,9 +318,6 @@ public class playerController3d : MonoBehaviour
 
     void smoothMove() {
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-
-        
-
         body.AddForce(movement * speed);
         playerAnimator.SetFloat("Speed", Mathf.Abs(body.velocity.z) + Mathf.Abs(body.velocity.x));
 

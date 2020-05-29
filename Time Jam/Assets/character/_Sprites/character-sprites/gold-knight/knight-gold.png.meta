@@ -1,0 +1,4652 @@
+fileFormatVersion: 2
+guid: c301ad774b1e1074e84377c058ae2519
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4990524777534829547
+    second: knight-gold_0
+  - first:
+      213: -4219637573059199039
+    second: knight-gold_1
+  - first:
+      213: -4851014059730479554
+    second: knight-gold_2
+  - first:
+      213: -3420933200785553583
+    second: knight-gold_3
+  - first:
+      213: 3670605724607155602
+    second: knight-gold_4
+  - first:
+      213: -1059851670996695468
+    second: knight-gold_5
+  - first:
+      213: -4786086178254215902
+    second: knight-gold_6
+  - first:
+      213: 3814424957525432641
+    second: knight-gold_7
+  - first:
+      213: 3389349810783734884
+    second: knight-gold_8
+  - first:
+      213: -3316168357521695936
+    second: knight-gold_9
+  - first:
+      213: -5582163185233779886
+    second: knight-gold_10
+  - first:
+      213: -3731555471094664895
+    second: knight-gold_11
+  - first:
+      213: 7765393382002486995
+    second: knight-gold_12
+  - first:
+      213: 6913378703419156004
+    second: knight-gold_13
+  - first:
+      213: 3823997032025313886
+    second: knight-gold_14
+  - first:
+      213: 2747630339741518306
+    second: knight-gold_15
+  - first:
+      213: 9039040868262813039
+    second: knight-gold_16
+  - first:
+      213: 1255196846082291461
+    second: knight-gold_17
+  - first:
+      213: 6144871764671492152
+    second: knight-gold_18
+  - first:
+      213: -5028099135031204839
+    second: knight-gold_19
+  - first:
+      213: 6935985265672058816
+    second: knight-gold_20
+  - first:
+      213: 4302470232068063132
+    second: knight-gold_21
+  - first:
+      213: -8405348001175757699
+    second: knight-gold_22
+  - first:
+      213: -8287075128566798971
+    second: knight-gold_23
+  - first:
+      213: -3631725870019006485
+    second: knight-gold_24
+  - first:
+      213: -7493915707874630258
+    second: knight-gold_25
+  - first:
+      213: -3609465853110668582
+    second: knight-gold_26
+  - first:
+      213: -6486759415189520808
+    second: knight-gold_27
+  - first:
+      213: 139412213926547562
+    second: knight-gold_28
+  - first:
+      213: 6244746795422150439
+    second: knight-gold_29
+  - first:
+      213: 3942374306486270898
+    second: knight-gold_30
+  - first:
+      213: -8213744994960059787
+    second: knight-gold_31
+  - first:
+      213: -5585504098328533705
+    second: knight-gold_32
+  - first:
+      213: 5975728588557142596
+    second: knight-gold_33
+  - first:
+      213: -7515321509917399353
+    second: knight-gold_34
+  - first:
+      213: -71771958720880981
+    second: knight-gold_35
+  - first:
+      213: 1553334347310363380
+    second: knight-gold_36
+  - first:
+      213: 2271988802339670848
+    second: knight-gold_37
+  - first:
+      213: -1800562110256748581
+    second: knight-gold_38
+  - first:
+      213: 8220775365958363876
+    second: knight-gold_39
+  - first:
+      213: 3143091466366057338
+    second: knight-gold_40
+  - first:
+      213: 332852286255372876
+    second: knight-gold_41
+  - first:
+      213: 7127054115599765809
+    second: knight-gold_42
+  - first:
+      213: -6796909240284149006
+    second: knight-gold_43
+  - first:
+      213: 3771106034227261127
+    second: knight-gold_44
+  - first:
+      213: -3937672306535654704
+    second: knight-gold_45
+  - first:
+      213: -4227031746276334277
+    second: knight-gold_46
+  - first:
+      213: 2755535273983736264
+    second: knight-gold_47
+  - first:
+      213: 4987296836112010050
+    second: knight-gold_48
+  - first:
+      213: -2350642842975956526
+    second: knight-gold_49
+  - first:
+      213: 300891876890399403
+    second: knight-gold_50
+  - first:
+      213: -4883507792959227846
+    second: knight-gold_51
+  - first:
+      213: 4919306526075440884
+    second: knight-gold_52
+  - first:
+      213: -4282958488800310527
+    second: knight-gold_53
+  - first:
+      213: -3260344106796809312
+    second: knight-gold_54
+  - first:
+      213: 8780766363329183978
+    second: knight-gold_55
+  - first:
+      213: 6901480536919784897
+    second: knight-gold_56
+  - first:
+      213: -4069705076493306615
+    second: knight-gold_57
+  - first:
+      213: -4969543854864049470
+    second: knight-gold_58
+  - first:
+      213: -80682482521528834
+    second: knight-gold_59
+  - first:
+      213: -1792599905803662188
+    second: knight-gold_60
+  - first:
+      213: 3731206375966212095
+    second: knight-gold_61
+  - first:
+      213: -8136638440941439500
+    second: knight-gold_62
+  - first:
+      213: 9096259423306579900
+    second: knight-gold_63
+  - first:
+      213: -5554088385209643532
+    second: knight-gold_64
+  - first:
+      213: 81353036781031071
+    second: knight-gold_65
+  - first:
+      213: 1137633218205282619
+    second: knight-gold_66
+  - first:
+      213: -7967915885646216487
+    second: knight-gold_67
+  - first:
+      213: -1961519683179990964
+    second: knight-gold_68
+  - first:
+      213: 2801748704182777632
+    second: knight-gold_69
+  - first:
+      213: 2972776280206970927
+    second: knight-gold_70
+  - first:
+      213: -2709932952313967569
+    second: knight-gold_71
+  - first:
+      213: -9056011756178307541
+    second: knight-gold_72
+  - first:
+      213: 7619020441756643033
+    second: knight-gold_73
+  - first:
+      213: -6027803529440346075
+    second: knight-gold_74
+  - first:
+      213: 4684457830909565670
+    second: knight-gold_75
+  - first:
+      213: -7864893141257005879
+    second: knight-gold_76
+  - first:
+      213: 128202673888711196
+    second: knight-gold_77
+  - first:
+      213: 4801708901905978184
+    second: knight-gold_78
+  - first:
+      213: 3305748936144767382
+    second: knight-gold_79
+  - first:
+      213: 7395944444021757419
+    second: knight-gold_80
+  - first:
+      213: -6673391669441553033
+    second: knight-gold_81
+  - first:
+      213: -881762055243930384
+    second: knight-gold_82
+  - first:
+      213: -5872253582427651442
+    second: knight-gold_83
+  - first:
+      213: -4294836124691616036
+    second: knight-gold_84
+  - first:
+      213: -5325439248282212669
+    second: knight-gold_85
+  - first:
+      213: -890579517976965303
+    second: knight-gold_86
+  - first:
+      213: 4330175530126604617
+    second: knight-gold_87
+  - first:
+      213: -725594372841170556
+    second: knight-gold_88
+  - first:
+      213: -5869804909094171587
+    second: knight-gold_89
+  - first:
+      213: -5139020035596306543
+    second: knight-gold_90
+  - first:
+      213: 4255892141128159675
+    second: knight-gold_91
+  - first:
+      213: 5105866518359577851
+    second: knight-gold_92
+  - first:
+      213: -492940597761556086
+    second: knight-gold_93
+  - first:
+      213: 534528647178744532
+    second: knight-gold_94
+  - first:
+      213: -8909602019286877669
+    second: knight-gold_95
+  - first:
+      213: 4481703028392825791
+    second: knight-gold_96
+  - first:
+      213: 7598316444024529269
+    second: knight-gold_97
+  - first:
+      213: -5878379899310888113
+    second: knight-gold_98
+  - first:
+      213: -588578591245653516
+    second: knight-gold_99
+  - first:
+      213: 6588191899563312189
+    second: knight-gold_100
+  - first:
+      213: -6961752551586352459
+    second: knight-gold_101
+  - first:
+      213: -3477305686464990340
+    second: knight-gold_102
+  - first:
+      213: 2247040709957648556
+    second: knight-gold_103
+  - first:
+      213: 4711964637310723646
+    second: knight-gold_104
+  - first:
+      213: 7201166881370462176
+    second: knight-gold_105
+  - first:
+      213: -3179376016762403827
+    second: knight-gold_106
+  - first:
+      213: -6087746840593719715
+    second: knight-gold_107
+  - first:
+      213: -3340308633932875800
+    second: knight-gold_108
+  - first:
+      213: -2229490070394331619
+    second: knight-gold_109
+  - first:
+      213: -8859295620234551066
+    second: knight-gold_110
+  - first:
+      213: -2777090556009089239
+    second: knight-gold_111
+  - first:
+      213: 1654590668716057225
+    second: knight-gold_112
+  - first:
+      213: 3665581647345927314
+    second: knight-gold_113
+  - first:
+      213: -4862901029784109478
+    second: knight-gold_114
+  - first:
+      213: -864585161382785862
+    second: knight-gold_115
+  - first:
+      213: -7142964466372563972
+    second: knight-gold_116
+  - first:
+      213: 2040371935945483992
+    second: knight-gold_117
+  - first:
+      213: -3567960085469108872
+    second: knight-gold_118
+  - first:
+      213: -5566329296637639548
+    second: knight-gold_119
+  - first:
+      213: 1699268520376592415
+    second: knight-gold_120
+  - first:
+      213: 8559189984089526175
+    second: knight-gold_121
+  - first:
+      213: -4955974759380286402
+    second: knight-gold_122
+  - first:
+      213: 6168349034905248595
+    second: knight-gold_123
+  - first:
+      213: 745514457290451951
+    second: knight-gold_124
+  - first:
+      213: -6652306741663431223
+    second: knight-gold_125
+  - first:
+      213: -46766731681977232
+    second: knight-gold_126
+  - first:
+      213: 2086713636225204377
+    second: knight-gold_127
+  - first:
+      213: -2460564268593776741
+    second: knight-gold_128
+  - first:
+      213: 2022200127694623559
+    second: knight-gold_129
+  - first:
+      213: -4652612193122660292
+    second: knight-gold_130
+  - first:
+      213: 3131499849043701506
+    second: knight-gold_131
+  - first:
+      213: -3543513277573209535
+    second: knight-gold_132
+  - first:
+      213: 2298170924144196062
+    second: knight-gold_133
+  - first:
+      213: 6435865147519781957
+    second: knight-gold_134
+  - first:
+      213: -8616133837790726430
+    second: knight-gold_135
+  - first:
+      213: -8884841356654222651
+    second: knight-gold_136
+  - first:
+      213: -3823932859157655954
+    second: knight-gold_137
+  - first:
+      213: -8580575189070735837
+    second: knight-gold_138
+  - first:
+      213: -7176648369141041519
+    second: knight-gold_139
+  - first:
+      213: 3119992263716505714
+    second: knight-gold_140
+  - first:
+      213: 5594454363742551612
+    second: knight-gold_141
+  - first:
+      213: 6874919315625459477
+    second: knight-gold_142
+  - first:
+      213: 6569195116159312033
+    second: knight-gold_143
+  - first:
+      213: -7498538517680592452
+    second: knight-gold_144
+  - first:
+      213: 3520380048729610484
+    second: knight-gold_145
+  - first:
+      213: -4581572343791255288
+    second: knight-gold_146
+  - first:
+      213: 2446991892335460434
+    second: knight-gold_147
+  - first:
+      213: -7855577469559965664
+    second: knight-gold_148
+  - first:
+      213: -1587585835995402255
+    second: knight-gold_149
+  - first:
+      213: 7903880950156962657
+    second: knight-gold_150
+  - first:
+      213: -6908400040952654459
+    second: knight-gold_151
+  - first:
+      213: -6680163250487077807
+    second: knight-gold_152
+  - first:
+      213: 3630386463988125674
+    second: knight-gold_153
+  - first:
+      213: 276821924316132353
+    second: knight-gold_154
+  - first:
+      213: 7222188133178848689
+    second: knight-gold_155
+  - first:
+      213: -3341623443091906188
+    second: knight-gold_156
+  - first:
+      213: 4276088241147311978
+    second: knight-gold_157
+  - first:
+      213: 7693365135536005022
+    second: knight-gold_158
+  - first:
+      213: 4859109714687018080
+    second: knight-gold_159
+  - first:
+      213: 5197310294073524061
+    second: knight-gold_160
+  - first:
+      213: -4453331369043144167
+    second: knight-gold_161
+  - first:
+      213: -6142772502673229428
+    second: knight-gold_162
+  - first:
+      213: 4664478662920431453
+    second: knight-gold_163
+  - first:
+      213: -5290546262888274296
+    second: knight-gold_164
+  - first:
+      213: -7313187756723597434
+    second: knight-gold_165
+  - first:
+      213: 2561114787075907060
+    second: knight-gold_166
+  - first:
+      213: 7310016696101372641
+    second: knight-gold_167
+  - first:
+      213: 4326183870562579343
+    second: knight-gold_168
+  - first:
+      213: -6126268831058747646
+    second: knight-gold_169
+  - first:
+      213: -8196229722033083685
+    second: knight-gold_170
+  - first:
+      213: 6547515851252500562
+    second: knight-gold_171
+  - first:
+      213: -3609050300469992274
+    second: knight-gold_172
+  - first:
+      213: -2275961657936332486
+    second: knight-gold_173
+  - first:
+      213: 5932424983730547399
+    second: knight-gold_174
+  - first:
+      213: 5589699007261945256
+    second: knight-gold_175
+  - first:
+      213: -8098302666128713913
+    second: knight-gold_176
+  - first:
+      213: -6555131317935329309
+    second: knight-gold_177
+  - first:
+      213: -4187888912828279808
+    second: knight-gold_178
+  - first:
+      213: -1172814403121716025
+    second: knight-gold_179
+  - first:
+      213: -617000731241908638
+    second: knight-gold_180
+  - first:
+      213: -3125713017650463930
+    second: knight-gold_181
+  - first:
+      213: 6385360951290350146
+    second: knight-gold_182
+  - first:
+      213: -7080471684478690213
+    second: knight-gold_183
+  - first:
+      213: 5386269407666213535
+    second: knight-gold_184
+  - first:
+      213: -703397695937806598
+    second: knight-gold_185
+  - first:
+      213: -6830110867328677684
+    second: knight-gold_186
+  - first:
+      213: -710008044255354144
+    second: knight-gold_187
+  - first:
+      213: -6610450166091151983
+    second: knight-gold_188
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knight-gold_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3bfbf18d7e14540800000000000000
+      internalID: 4990524777534829547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf3ae0ebf5d075c0800000000000000
+      internalID: -4219637573059199039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d6591a6cbdacb0800000000000000
+      internalID: -4851014059730479554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15746d6f0676680d0800000000000000
+      internalID: -3420933200785553583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d89b5757c90f230800000000000000
+      internalID: 3670605724607155602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45643a34586aa41f0800000000000000
+      internalID: -1059851670996695468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_6
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22520c88af7649db0800000000000000
+      internalID: -4786086178254215902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14910b70a4f8fe430800000000000000
+      internalID: 3814424957525432641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_8
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c4d4302b3690f20800000000000000
+      internalID: 3389349810783734884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b578ad27a9af1d0800000000000000
+      internalID: -3316168357521695936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_10
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a0e9982c2882b0800000000000000
+      internalID: -5582163185233779886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_11
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141bcb5d11ad63cc0800000000000000
+      internalID: -3731555471094664895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_12
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de6d6b532834cb60800000000000000
+      internalID: 7765393382002486995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_13
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1430
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426ac075d4141ff50800000000000000
+      internalID: 6913378703419156004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52540c4a01911530800000000000000
+      internalID: 3823997032025313886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e901668c3b812620800000000000000
+      internalID: 2747630339741518306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d1b0f57cf117d70800000000000000
+      internalID: 9039040868262813039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507fce591ea5b6110800000000000000
+      internalID: 1255196846082291461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83072932058f64550800000000000000
+      internalID: 6144871764671492152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91424090a7a983ab0800000000000000
+      internalID: -5028099135031204839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7f9b7c9d1914060800000000000000
+      internalID: 6935985265672058816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_21
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ffb1f61e175bb30800000000000000
+      internalID: 4302470232068063132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c1160c6843a5b80800000000000000
+      internalID: -8405348001175757699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_23
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5852dcec3156efc80800000000000000
+      internalID: -8287075128566798971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_24
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befabeb1094899dc0800000000000000
+      internalID: -3631725870019006485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_25
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a96f3e53400890800000000000000
+      internalID: -7493915707874630258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2bf6c2ee998edc0800000000000000
+      internalID: -3609465853110668582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_27
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1320
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e35322ea66af5a0800000000000000
+      internalID: -6486759415189520808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6051708baa4fe100800000000000000
+      internalID: 139412213926547562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f6565df1cc9a650800000000000000
+      internalID: 6244746795422150439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbbdbd4b8026b630800000000000000
+      internalID: 3942374306486270898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57253c3027ae20e80800000000000000
+      internalID: -8213744994960059787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a3a7ad9d4c72b0800000000000000
+      internalID: -5585504098328533705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a48139d7d0ee250800000000000000
+      internalID: 5975728588557142596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_34
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6658497e634b790800000000000000
+      internalID: -7515321509917399353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_35
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9b97a8c3010ff0800000000000000
+      internalID: -71771958720880981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2f8d4eb5d8e8510800000000000000
+      internalID: 1553334347310363380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_37
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b0f1937c9b78f10800000000000000
+      internalID: 2271988802339670848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_38
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd76e1eec4e1307e0800000000000000
+      internalID: -1800562110256748581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_39
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaea3ac3af061270800000000000000
+      internalID: 8220775365958363876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_40
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b7f4d29018e9b20800000000000000
+      internalID: 3143091466366057338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_41
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1210
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9dec04678e9400800000000000000
+      internalID: 332852286255372876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1315f4715f168e260800000000000000
+      internalID: 7127054115599765809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa0b4abe078ca1a0800000000000000
+      internalID: -6796909240284149006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cea27c35f8a55430800000000000000
+      internalID: 3771106034227261127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_45
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9c0f56e39a59c0800000000000000
+      internalID: -3937672306535654704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3566e4c5019655c0800000000000000
+      internalID: -4227031746276334277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9fbd37bb0ad3620800000000000000
+      internalID: 2755535273983736264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bc2e17c00763540800000000000000
+      internalID: 4987296836112010050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_49
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d19a9ed9c6d06fd0800000000000000
+      internalID: -2350642842975956526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_50
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba25add519bfc2400800000000000000
+      internalID: 300891876890399403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_51
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3830d6498b4a3cb0800000000000000
+      internalID: -4883507792959227846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_52
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feccfbc833e44440800000000000000
+      internalID: 4919306526075440884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_53
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b405f42ffdf84c0800000000000000
+      internalID: -4282958488800310527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_54
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a386d41f4ee0c2d0800000000000000
+      internalID: -3260344106796809312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_55
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1100
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae04fe52c7c8bd970800000000000000
+      internalID: 8780766363329183978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd30639bfbf6cf50800000000000000
+      internalID: 6901480536919784897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_57
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905330f8bc08587c0800000000000000
+      internalID: -4069705076493306615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca5a1b9132a80bb0800000000000000
+      internalID: -4969543854864049470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef525b9a5bb51eef0800000000000000
+      internalID: -80682482521528834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_60
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c8c2e12e76f17e0800000000000000
+      internalID: -1792599905803662188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_61
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff732f1e68e7c330800000000000000
+      internalID: 3731206375966212095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5b5ed927ad41f80800000000000000
+      internalID: -8136638440941439500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_63
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbffcfe50c76c3e70800000000000000
+      internalID: 9096259423306579900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_64
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdc47c5a0aebe2b0800000000000000
+      internalID: -5554088385209643532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_65
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e8bbae726012100800000000000000
+      internalID: 81353036781031071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_66
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b317fcf626fa9cf00800000000000000
+      internalID: 1137633218205282619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_67
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d28dd3c7b64c6190800000000000000
+      internalID: -7967915885646216487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_68
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40be10ad3847c4e0800000000000000
+      internalID: -1961519683179990964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_69
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 990
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027b9b62a9fc1e620800000000000000
+      internalID: 2801748704182777632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f209172c64c614920800000000000000
+      internalID: 2972776280206970927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c43347652646ad0800000000000000
+      internalID: -2709932952313967569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b260b3fd945925280800000000000000
+      internalID: -9056011756178307541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de285779b23cb960800000000000000
+      internalID: 7619020441756643033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520ccdb60a0f85ca0800000000000000
+      internalID: -6027803529440346075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_75
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea59a0f399820140800000000000000
+      internalID: 4684457830909565670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_76
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c458f6ab594ad290800000000000000
+      internalID: -7864893141257005879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_77
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12546417a777c100800000000000000
+      internalID: 128202673888711196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_78
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843dfe44ec813a240800000000000000
+      internalID: 4801708901905978184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_79
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c88f842160ed20800000000000000
+      internalID: 3305748936144767382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_80
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5d074594ca3a660800000000000000
+      internalID: 7395944444021757419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_81
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d92ef32a95363a0800000000000000
+      internalID: -6673391669441553033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_82
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 880
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f464c0251a53c3f0800000000000000
+      internalID: -881762055243930384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e828264ba70918ea0800000000000000
+      internalID: -5872253582427651442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_84
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdead33bc4da564c0800000000000000
+      internalID: -4294836124691616036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_85
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c62735183d3816b0800000000000000
+      internalID: -5325439248282212669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_86
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f8eba95a604a3f0800000000000000
+      internalID: -890579517976965303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f840d3bfd71c30800000000000000
+      internalID: 4330175530126604617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_88
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48997c323cb2ee5f0800000000000000
+      internalID: -725594372841170556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_89
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c0994e8834a8ea0800000000000000
+      internalID: -5869804909094171587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_90
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197baac51888ea8b0800000000000000
+      internalID: -5139020035596306543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_91
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1125a8a57ff0b30800000000000000
+      internalID: 4255892141128159675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_92
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf41261eb8eabd640800000000000000
+      internalID: 5105866518359577851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_93
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81cd075329b829f0800000000000000
+      internalID: -492940597761556086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_94
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2fb59f8f60b6700800000000000000
+      internalID: 534528647178744532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_95
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a7d462b2cba5480800000000000000
+      internalID: -8909602019286877669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_96
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 770
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb39524c825323e30800000000000000
+      internalID: 4481703028392825791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57167195c84a27960800000000000000
+      internalID: 7598316444024529269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_98
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b27c660accb6ea0800000000000000
+      internalID: -5878379899310888113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_99
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f92762c3e2f4d7f0800000000000000
+      internalID: -588578591245653516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_100
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34c39d70a5fd6b50800000000000000
+      internalID: 6588191899563312189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_101
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2b68470f2e26f90800000000000000
+      internalID: -6961752551586352459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_102
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73fec6d6e02ebfc0800000000000000
+      internalID: -3477305686464990340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_103
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00ed0de971f2f10800000000000000
+      internalID: 2247040709957648556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_104
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36ab116fd2446140800000000000000
+      internalID: 4711964637310723646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_105
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7d46c002fafe360800000000000000
+      internalID: 7201166881370462176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_106
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040b799b5690e3d0800000000000000
+      internalID: -3179376016762403827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_107
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e97e3b08af38ba0800000000000000
+      internalID: -6087746840593719715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_108
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7b242cef6d4a1d0800000000000000
+      internalID: -3340308633932875800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_109
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e92e3e7924f01e0800000000000000
+      internalID: -2229490070394331619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_110
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 660
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0eebb62957d0580800000000000000
+      internalID: -8859295620234551066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9277cfb5adac579d0800000000000000
+      internalID: -2777090556009089239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_112
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822f71627946f610800000000000000
+      internalID: 1654590668716057225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_113
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ce315613ced230800000000000000
+      internalID: 3665581647345927314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e36d53741838cb0800000000000000
+      internalID: -4862901029784109478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_115
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc84b160606004f0800000000000000
+      internalID: -864585161382785862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_116
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb20a2b9a71fdc90800000000000000
+      internalID: -7142964466372563972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_117
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e4b3277bd05c10800000000000000
+      internalID: 2040371935945483992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_118
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87567d4c43f0c7ec0800000000000000
+      internalID: -3567960085469108872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_119
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48440131ffc60c2b0800000000000000
+      internalID: -5566329296637639548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_120
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ec0757b3059710800000000000000
+      internalID: 1699268520376592415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_121
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fccb621f958c670800000000000000
+      internalID: 8559189984089526175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_122
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e340657d637d83bb0800000000000000
+      internalID: -4955974759380286402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_123
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353a62414c06a9550800000000000000
+      internalID: 6168349034905248595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_124
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 550
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb27b1f279985a00800000000000000
+      internalID: 745514457290451951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5073e83424ea3a0800000000000000
+      internalID: -6652306741663431223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_126
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c2ac2c7e9d95ff0800000000000000
+      internalID: -46766731681977232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_127
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ca2b0ffe75fc10800000000000000
+      internalID: 2086713636225204377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_128
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f27795d15addd0800000000000000
+      internalID: -2460564268593776741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_129
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743dcf35d4c401c10800000000000000
+      internalID: 2022200127694623559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_130
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d5476cd99e6fb0800000000000000
+      internalID: -4652612193122660292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_131
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f60747582557b20800000000000000
+      internalID: 3131499849043701506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_132
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1426e59c279e2dec0800000000000000
+      internalID: -3543513277573209535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_133
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9febe774eb4ef10800000000000000
+      internalID: 2298170924144196062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_134
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ccb34c049c05950800000000000000
+      internalID: 6435865147519781957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_135
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6b24dbce75d6880800000000000000
+      internalID: -8616133837790726430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_136
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2ecea2cd3b2b480800000000000000
+      internalID: -8884841356654222651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_137
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ec6fc1359aeeac0800000000000000
+      internalID: -3823932859157655954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_138
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 440
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32698eec35cabe880800000000000000
+      internalID: -8580575189070735837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196367fe45c676c90800000000000000
+      internalID: -7176648369141041519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_140
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2780ac4fe607c4b20800000000000000
+      internalID: 3119992263716505714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_141
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e32076a9e73ad40800000000000000
+      internalID: 5594454363742551612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_142
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fb35351be986f50800000000000000
+      internalID: 6874919315625459477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_143
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a028ee27287a2b50800000000000000
+      internalID: 6569195116159312033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_144
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9601772f6dfe790800000000000000
+      internalID: -7498538517680592452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_145
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f896e6a007ead030800000000000000
+      internalID: 3520380048729610484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_146
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801819f3a3cfa60c0800000000000000
+      internalID: -4581572343791255288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_147
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2508aee492675f120800000000000000
+      internalID: 2446991892335460434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_148
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028f05d79e16bf290800000000000000
+      internalID: -7855577469559965664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_149
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6d03f713c7f9e0800000000000000
+      internalID: -1587585835995402255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_150
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b251df8d930bd60800000000000000
+      internalID: 7903880950156962657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_151
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58519b8d3ce6020a0800000000000000
+      internalID: -6908400040952654459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_152
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 330
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154591daaea4b43a0800000000000000
+      internalID: -6680163250487077807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef066f1149b16230800000000000000
+      internalID: 3630386463988125674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_154
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10437e0d21877d300800000000000000
+      internalID: 276821924316132353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_155
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5ba23a7dd5a3460800000000000000
+      internalID: 7222188133178848689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_156
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a365ee2b20a1d0800000000000000
+      internalID: -3341623443091906188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_157
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677fc18997b75b30800000000000000
+      internalID: 4276088241147311978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_158
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f9ffe54d254ca60800000000000000
+      internalID: 7693365135536005022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_159
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c1947a860f6340800000000000000
+      internalID: 4859109714687018080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_160
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fbbb90d2e802840800000000000000
+      internalID: 5197310294073524061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_161
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9125411f6b69232c0800000000000000
+      internalID: -4453331369043144167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_162
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89ff1264fc70caa0800000000000000
+      internalID: -6142772502673229428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_163
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57e2c561ae8bb040800000000000000
+      internalID: 4664478662920431453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_164
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88626c454343496b0800000000000000
+      internalID: -5290546262888274296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_165
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f01c07b76528a90800000000000000
+      internalID: -7313187756723597434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_166
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 220
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdd8a85458ea8320800000000000000
+      internalID: 2561114787075907060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20c497475627560800000000000000
+      internalID: 7310016696101372641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_168
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8338e52f41b90c30800000000000000
+      internalID: 4326183870562579343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_169
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f123ed4fe1bfaa0800000000000000
+      internalID: -6126268831058747646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_170
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda28b84e74214e80800000000000000
+      internalID: -8196229722033083685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_171
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258052bf9f27dda50800000000000000
+      internalID: 6547515851252500562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_172
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea428ff8fd31aedc0800000000000000
+      internalID: -3609050300469992274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_173
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39bb404ee82a60e0800000000000000
+      internalID: -2275961657936332486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_174
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca69e36715345250800000000000000
+      internalID: 5932424983730547399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_175
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ada331b1a9929d40800000000000000
+      internalID: 5589699007261945256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_176
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7479ccdb1ac0d9f80800000000000000
+      internalID: -8098302666128713913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_177
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef2d620cce7705a0800000000000000
+      internalID: -6555131317935329309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_178
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d210e831a1e5c0800000000000000
+      internalID: -4187888912828279808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_179
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e772a38359bfe0800000000000000
+      internalID: -1172814403121716025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_180
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 110
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667b2c9a19ff67f0800000000000000
+      internalID: -617000731241908638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_181
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b3129329c3f94d0800000000000000
+      internalID: -3125713017650463930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_182
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24acf4044fb5d9850800000000000000
+      internalID: 6385360951290350146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_183
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9f64548c1dbd90800000000000000
+      internalID: -7080471684478690213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_184
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f929f741d7fdfba40800000000000000
+      internalID: 5386269407666213535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_185
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe7cc5b5870d36f0800000000000000
+      internalID: -703397695937806598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_186
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8c6588a529631a0800000000000000
+      internalID: -6830110867328677684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_187
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26d7e027b8526f0800000000000000
+      internalID: -710008044255354144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-gold_188
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 140
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19507bcf896f244a0800000000000000
+      internalID: -6610450166091151983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
